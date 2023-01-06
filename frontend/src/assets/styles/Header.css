@@ -1,0 +1,29 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    padding: 20px;
+    height: 15vh;
+
+    background: rgb(212, 245, 168);
+}
+
+.nav--logo{
+    letter-spacing: 2px;
+}
+
+.login{
+    color: black;
+}
+
+.btn-login{
+    background: rgb(179, 246, 92);
+    color: #000;
+}
+
+.btn-signup{
+    background: rgb(90, 158, 0);
+    color: #fff;
+}

@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus{
+  outline: none;
+}
+body{
+  font-family: "Montserrat", sans-serif;
+  min-height: 100vh;
+}
+
+.btn{
+  padding: 15px;
+  margin: 0 10px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.btn:active{
+  box-shadow: inset 0 0 3px 1px #fff;
+}
